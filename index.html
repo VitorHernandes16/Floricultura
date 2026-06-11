@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My.dear.flower</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="#" class="logo">My.dear.flower</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+      <nav class="nav" id="nav">
+        <a href="#catalog">CATALOG</a>
+        <a href="#contacts">CONTACTS</a>
+        <a href="#about">ABOUT US</a>
+        <a href="#delivery">DELIVERY AND PAYMENT</a>
+        <div class="nav__icons">
+          <a href="#" aria-label="Wishlist">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </a>
+          <a href="#" aria-label="Cart">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__image-wrap">
+      <img
+        src="Novo Projeto.svg"
+        alt="Flores coloridas"
+        class="hero__photo"
+      />
+    </div>
+    <div class="hero__text">
+      <h1 class="hero__title">
+        <span class="hero__more">More</span>
+        <span class="hero__than"><em>than</em></span>
+        <span class="hero__flowers">flowers</span>
+      </h1>
+      <p class="hero__desc">
+        Our highly experienced floral team will create a<br />
+        floral experience specifically to your order using<br />
+        the highest quality flowers and expertise.
+      </p>
+    </div>
+  </section>
+
+  <!-- CATALOG -->
+  <section class="catalog" id="catalog">
+    <div class="catalog__grid">
+
+      <div class="product">
+        <div class="product__img-wrap">
+          <img src="https://images.unsplash.com/photo-1559563362-c667ba5f5480?w=600&auto=format&fit=crop&q=80" alt="Light Pink Roses" />
+        </div>
+        <div class="product__info">
+          <h3>Light Pink Roses</h3>
+          <p>$70</p>
+        </div>
+      </div>
+
+      <div class="product product--featured">
+        <div class="product__badge">BEST SELLERS</div>
+        <div class="product__img-wrap">
+          <img src="https://images.unsplash.com/photo-1602524816290-f0c36ca3d86d?w=600&auto=format&fit=crop&q=80" alt="Orange Roses" />
+        </div>
+        <div class="product__info">
+          <h3>Orange Roses</h3>
+          <p>$90</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product__img-wrap">
+          <img src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&auto=format&fit=crop&q=80" alt="Ranunculus" />
+        </div>
+        <div class="product__info">
+          <h3>Ranunculus</h3>
+          <p>$85</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product__img-wrap">
+          <img src="https://images.unsplash.com/photo-1455659817273-f96807779a8a?w=600&auto=format&fit=crop&q=80" alt="Dusty Roses" />
+        </div>
+        <div class="product__info">
+          <h3>Dusty Roses</h3>
+          <p>$70</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="catalog__cta">
+      <a href="#" class="btn-outline">ALL FLOWERS &nbsp;&#x2192;</a>
+    </div>
+  </section>
+
+  <!-- MISSION -->
+  <section class="mission" id="about">
+    <div class="mission__inner">
+      <h2 class="mission__title"><em>our</em> mission</h2>
+      <div class="mission__cols">
+        <div class="mission__col">
+          <p>
+            Our mission statement at My.dear.flower is to offer the best selection of plant and floral products at affordable costs so that our customers have the best value and experience with our company. Our company also provides knowledgeable and customer-focused staffs who offer fast efficient service.
+          </p>
+          <p>
+            We are family owned and operated. We are committed to offering only the finest floral arrangements and gifts, backed by service that is friendly and prompt.
+          </p>
+        </div>
+        <div class="mission__col">
+          <p>
+            Because all of our customers are important, our professional staff is dedicated to making your experience a pleasant one. That is why we always go the extra mile to make your floral gift perfect. Stop by the shop, browse the collection of take home pieces, or schedule an event consultation to begin your unforgettable floral experience today.
+          </p>
+          <a href="#" class="mission__read">Read more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section class="contacts" id="contacts">
+    <div class="contacts__inner">
+      <h2 class="contacts__title"><em>get in</em> touch</h2>
+      <div class="contacts__cols">
+        <div class="contacts__info">
+          <div class="contacts__item">
+            <span class="contacts__label">Address</span>
+            <span>123 Blossom Street, New York, NY 10001</span>
+          </div>
+          <div class="contacts__item">
+            <span class="contacts__label">Phone</span>
+            <span>+1 (212) 555-0198</span>
+          </div>
+          <div class="contacts__item">
+            <span class="contacts__label">Email</span>
+            <span>hello@mydearflower.com</span>
+          </div>
+          <div class="contacts__item">
+            <span class="contacts__label">Hours</span>
+            <span>Mon – Sat: 9am – 7pm<br />Sunday: 10am – 4pm</span>
+          </div>
+        </div>
+        <form class="contacts__form" onsubmit="return false;">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="your@email.com" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="How can we help?" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Write your message..."></textarea>
+          </div>
+          <button class="btn-dark" type="submit">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- DELIVERY -->
+  <section class="delivery" id="delivery">
+    <div class="delivery__inner">
+      <h2 class="delivery__title"><em>delivery</em> & payment</h2>
+      <div class="delivery__grid">
+        <div class="delivery__card">
+          <div class="delivery__icon">🚚</div>
+          <h3>Same Day Delivery</h3>
+          <p>Order before 2pm for same-day delivery within the city. We handle your flowers with care.</p>
+        </div>
+        <div class="delivery__card">
+          <div class="delivery__icon">📦</div>
+          <h3>Safe Packaging</h3>
+          <p>Every arrangement is packed in our signature boxes to ensure the flowers arrive perfect.</p>
+        </div>
+        <div class="delivery__card">
+          <div class="delivery__icon">💳</div>
+          <h3>Secure Payment</h3>
+          <p>We accept all major credit cards, PayPal, and bank transfer. All transactions are encrypted.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="logo">My.dear.flower</a>
+        <p>Floral studio crafting beauty<br />for every occasion since 2015.</p>
+        <div class="footer__socials">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">Pinterest</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <strong>Navigation</strong>
+        <a href="#catalog">Catalog</a>
+        <a href="#about">About Us</a>
+        <a href="#contacts">Contacts</a>
+        <a href="#delivery">Delivery &amp; Payment</a>
+      </div>
+      <div class="footer__col">
+        <strong>Catalog</strong>
+        <a href="#">Roses</a>
+        <a href="#">Bouquets</a>
+        <a href="#">Seasonal Flowers</a>
+        <a href="#">Custom Arrangements</a>
+      </div>
+      <div class="footer__col">
+        <strong>Contact</strong>
+        <a href="#">hello@mydearflower.com</a>
+        <a href="#">+1 (212) 555-0198</a>
+        <a href="#">123 Blossom St, New York</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2025 My.dear.flower · All rights reserved</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('navToggle').addEventListener('click', function () {
+      document.getElementById('nav').classList.toggle('nav--open');
+    });
+  </script>
+</body>
+</html>
